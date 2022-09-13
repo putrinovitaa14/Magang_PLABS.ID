@@ -1,0 +1,34 @@
+.wrapper {
+    position: relative;
+  }
+  
+  .dashed-box {
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .red-box {
+    text-align: center;
+    position: absolute;
+    z-index: 3; 
+    background: red;
+    width: 80%;
+    height: 50PX;
+    left: 40px;
+    top: 4em;
+  }
+  .gray-box {
+    text-align: center;
+    position: absolute;
+    z-index: 2; 
+    background: gray;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
